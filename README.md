@@ -55,14 +55,11 @@ See [webapp-group/README.md](webapp-group/README.md) for detailed documentation.
 
 ## Contributors
 
-### lab-group
-- **YEO GUAN WEI** (B11902091) - Dept. of CSIE, NTU
-
-### webapp-group
-- **CHEN, PIN-HSIANG** (B12705037) - Dept. of IM, NTU
-- **YU-WEN CHIANG** (R14722040) - Dept. of Accounting, NTU
-- **LIN, LI-CHIEH** (B11103049) - Dept. of History, NTU
-- **LUO, LI-CHEN** (B11705061) - Dept. of IM, NTU
+- **YEO GUAN WEI** (B11902091) 
+- **CHEN, PIN-HSIANG** (B12705037) 
+- **YU-WEN CHIANG** (R14722040) 
+- **LIN, LI-CHIEH** (B11103049) 
+- **LUO, LI-CHEN** (B11705061) 
 
 ## Project Goals
 
