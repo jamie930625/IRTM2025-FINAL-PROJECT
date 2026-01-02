@@ -1,0 +1,213 @@
+/* Obsidian-style Markdown styling for notebook */
+
+.notebook-markdown {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--foreground);
+}
+
+/* Headings with different colors */
+.notebook-markdown .notebook-h1 {
+  font-size: 2em;
+  font-weight: 700;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  color: #e06c75; /* Red */
+  border-bottom: 2px solid #e06c75;
+  padding-bottom: 0.3em;
+}
+
+.notebook-markdown .notebook-h2 {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  color: #d19a66; /* Orange */
+  border-bottom: 1px solid #d19a66;
+  padding-bottom: 0.3em;
+}
+
+.notebook-markdown .notebook-h3 {
+  font-size: 1.17em;
+  font-weight: 600;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: #e5c07b; /* Yellow */
+}
+
+.notebook-markdown .notebook-h4 {
+  font-size: 1em;
+  font-weight: 600;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+  color: #98c379; /* Green */
+}
+
+.notebook-markdown .notebook-h5 {
+  font-size: 0.83em;
+  font-weight: 600;
+  margin-top: 1.67em;
+  margin-bottom: 1.67em;
+  color: #56b6c2; /* Cyan */
+}
+
+.notebook-markdown .notebook-h6 {
+  font-size: 0.67em;
+  font-weight: 600;
+  margin-top: 2.33em;
+  margin-bottom: 2.33em;
+  color: #c678dd; /* Purple */
+}
+
+/* Paragraphs */
+.notebook-markdown .notebook-p {
+  margin: 1em 0;
+  color: var(--foreground);
+}
+
+/* Lists */
+.notebook-markdown .notebook-ul,
+.notebook-markdown .notebook-ol {
+  margin: 1em 0;
+  padding-left: 2em;
+  color: #61afef; /* Blue */
+}
+
+.notebook-markdown .notebook-li {
+  margin: 0.5em 0;
+  color: var(--foreground);
+}
+
+.notebook-markdown .notebook-ul .notebook-li::marker {
+  color: #61afef;
+}
+
+.notebook-markdown .notebook-ol .notebook-li::marker {
+  color: #61afef;
+}
+
+/* Code blocks */
+.notebook-markdown .notebook-code-inline {
+  background-color: var(--muted);
+  color: #e06c75; /* Red */
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9em;
+}
+
+.notebook-markdown .notebook-pre {
+  background-color: var(--muted);
+  padding: 1em;
+  border-radius: 4px;
+  overflow-x: auto;
+  margin: 1em 0;
+}
+
+.notebook-markdown .notebook-code-block {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9em;
+  color: #abb2bf;
+  display: block;
+  white-space: pre;
+}
+
+/* Blockquotes */
+.notebook-markdown .notebook-blockquote {
+  border-left: 4px solid #56b6c2; /* Cyan */
+  padding-left: 1em;
+  margin: 1em 0;
+  color: #5c6370;
+  font-style: italic;
+}
+
+/* Links */
+.notebook-markdown .notebook-a {
+  color: #61afef; /* Blue */
+  text-decoration: underline;
+  text-decoration-color: #61afef;
+}
+
+.notebook-markdown .notebook-a:hover {
+  color: #528bce;
+  text-decoration-color: #528bce;
+}
+
+/* Tables */
+.notebook-markdown .notebook-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+}
+
+.notebook-markdown .notebook-th {
+  background-color: var(--muted);
+  color: #e5c07b; /* Yellow */
+  font-weight: 600;
+  padding: 0.5em;
+  border: 1px solid var(--border);
+  text-align: left;
+}
+
+.notebook-markdown .notebook-td {
+  padding: 0.5em;
+  border: 1px solid var(--border);
+  color: var(--foreground);
+}
+
+.notebook-markdown .notebook-tr:nth-child(even) {
+  background-color: var(--muted);
+}
+
+/* Dark mode adjustments */
+.dark .notebook-markdown .notebook-blockquote {
+  color: #abb2bf;
+}
+
+.dark .notebook-markdown .notebook-code-block {
+  color: #abb2bf;
+}
+
+/* ============================================
+   KaTeX Math Formula Styling
+   ============================================ */
+
+/* Inline math */
+.notebook-markdown .katex {
+  font-size: 1.1em;
+}
+
+/* Block math (display mode) */
+.notebook-markdown .katex-display {
+  margin: 1.5em 0;
+  padding: 1em;
+  background-color: var(--muted);
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+.notebook-markdown .katex-display > .katex {
+  font-size: 1.2em;
+}
+
+/* Dark mode: KaTeX color adjustments */
+.dark .notebook-markdown .katex {
+  color: #e5c07b; /* Yellow-ish for visibility */
+}
+
+.dark .notebook-markdown .katex-display {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--border);
+}
+
+/* Light mode: KaTeX color */
+.notebook-markdown .katex {
+  color: #1a1a2e;
+}
+
+/* KaTeX error styling */
+.notebook-markdown .katex-error {
+  color: #e06c75;
+  font-size: 0.9em;
+}
+

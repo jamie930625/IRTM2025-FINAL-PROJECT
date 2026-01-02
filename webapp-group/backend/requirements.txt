@@ -1,0 +1,15 @@
+# Core FastAPI dependencies
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+pydantic>=2.10.0,<3.0.0
+pydantic-settings>=2.6.1
+
+# Environment and API
+python-dotenv>=1.0.1
+google-generativeai>=0.8.3
+
+# Document processing
+pypdf>=6.4.2
+
+# Search and indexing (may have dependency conflicts - install separately if needed)
+pyserini>=1.4.0

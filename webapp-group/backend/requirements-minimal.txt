@@ -1,0 +1,11 @@
+# Minimal requirements without pyserini (if pyserini causes conflicts)
+# Use this if you don't need RAG/document search functionality immediately
+
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+pydantic>=2.10.0,<3.0.0
+pydantic-settings>=2.6.1
+python-dotenv>=1.0.1
+google-generativeai>=0.8.3
+pypdf>=6.4.2
+
