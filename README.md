@@ -55,11 +55,11 @@ See [webapp-group/README.md](webapp-group/README.md) for detailed documentation.
 
 ## Contributors
 
-- **YEO GUAN WEI** (B11902091) 
-- **CHEN, PIN-HSIANG** (B12705037) 
-- **YU-WEN CHIANG** (R14722040) 
-- **LIN, LI-CHIEH** (B11103049) 
-- **LUO, LI-CHEN** (B11705061) 
+- **YEO GUAN WEI**
+- **CHEN, PIN-HSIANG**
+- **YU-WEN CHIANG**
+- **LIN, LI-CHIEH**
+- **LUO, LI-CHEN**
 
 ## Project Goals
 
